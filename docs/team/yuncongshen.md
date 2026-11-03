@@ -25,6 +25,8 @@ Given below are my contributions to the project.
 
 * **Code contributed:** [Individual tP Code Dashboard](https://nus-cs2113-ay2627-s1.github.io/tp-dashboard/?search=yuncongshen&sort=groupTitle&sortWithin=title&timeframe=commit&mergegroup=&groupSelect=groupByRepos&breakdown=true&checkedFileTypes=docs~functional-code~test-code~other).
 
+* **Usability improvements:** Fixed the mostly empty first help page and standardised required-field notation, borrower ID placeholders and help headings ([#168](https://github.com/AY2627S1-CS2113-W13-3/tp/issues/168), [#169](https://github.com/AY2627S1-CS2113-W13-3/tp/pull/169)). Added a first-page regression test and updated navigation tests to check consistent forward/backward paging.
+
 * **Documentation:**
   * **User Guide:** Documented fault reporting/severity, repairs, unavailability explanations and overview, including syntax, examples and restrictions in the feature PRs above. Contributed the original return and history instructions.
   * **Developer Guide:** Wrote return/history walkthroughs, design trade-offs and sequence diagrams ([#60](https://github.com/AY2627S1-CS2113-W13-3/tp/pull/60)), plus implementation guidance for faults, repairs, overview and unavailability explanations.
@@ -35,5 +37,5 @@ Given below are my contributions to the project.
   * Applied #141 to the latest team guide, rendered all 16 diagrams with the site's Mermaid version and visually checked the five class diagrams.
 
 * **Community:**
-  * Reviewed correction dependencies, availability, persistence and preservation of audit evidence in [PR #122](https://github.com/AY2627S1-CS2113-W13-3/tp/pull/122#issuecomment-6362308091). Independently ran Java 25 checks: 274 tests and both Checkstyle tasks passed.
-  * Reminded the author of [PR #95](https://github.com/AY2627S1-CS2113-W13-3/tp/pull/95#issuecomment-6313155974) to update command hints and Javadoc.
+  * Reviewed and commented on PRs [#95](https://github.com/AY2627S1-CS2113-W13-3/tp/pull/95#issuecomment-6313155974) and [#122](https://github.com/AY2627S1-CS2113-W13-3/tp/pull/122#issuecomment-6362308091), covering documentation and correction behaviour.
+  * Reviewed another team's [Developer Guide](https://github.com/NUS-CS2113-AY2627-S1/tp/pull/9#pullrequestreview-5678161770), commenting on [class responsibilities](https://github.com/NUS-CS2113-AY2627-S1/tp/pull/9#discussion_r4397179567), [object creation](https://github.com/NUS-CS2113-AY2627-S1/tp/pull/9#discussion_r4397190877) and [method signatures](https://github.com/NUS-CS2113-AY2627-S1/tp/pull/9#discussion_r4397265620), and suggesting an [architecture diagram](https://github.com/NUS-CS2113-AY2627-S1/tp/pull/9#discussion_r4397281623).
